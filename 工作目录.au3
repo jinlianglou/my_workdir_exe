@@ -17,7 +17,7 @@ Func closeApp()
 EndFunc
 ;创建窗口
 Func createGui($w,$h)
-   Local $hGUI = GUICreate("D:\mst\", $w, $h)
+   Local $hGUI = GUICreate($base_path, $w, $h)
    GUISetOnEvent($GUI_EVENT_CLOSE, "closeApp")
    GUISetFont ( 12 )
    ;$WS_VSCROLL
