@@ -1,1 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T02:02:40.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.2.9" etag="2heSp_O1pbsEzkqtGdli" type="github"><diagram id="dv2QtuWtAXCM198p0LFP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-12T02:30:10.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="xWXBq34wp2YeEGNeEEcc" version="15.2.9" type="github">
+  <diagram id="dv2QtuWtAXCM198p0LFP" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="evyOM6vPQMrZivS5_X6k-1" value="学校端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="evyOM6vPQMrZivS5_X6k-2" target="evyOM6vPQMrZivS5_X6k-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-2" value="oa端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="evyOM6vPQMrZivS5_X6k-6" target="evyOM6vPQMrZivS5_X6k-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-6" value="&lt;span style=&quot;font-size: 13px ; text-align: left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;被设置为【学校管理员】的教师会在学校端顶部导航中新增【&lt;/font&gt;&lt;b&gt;&lt;font color=&quot;#ff4824&quot;&gt;学校控制台&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#333333&quot;&gt;】按钮&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="250" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-4" value="学校管理系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="240" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-15" value="&lt;font color=&quot;#ff3333&quot;&gt;获取用户信息，如果不是管理员，则提示无权限访问&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="evyOM6vPQMrZivS5_X6k-19" target="evyOM6vPQMrZivS5_X6k-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-19" value="oa系统判断权限" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="170" y="285" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="evyOM6vPQMrZivS5_X6k-21" target="evyOM6vPQMrZivS5_X6k-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-21" value="携带oaToken" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="270" y="270" width="80" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-29" value="teacher.ewt360.com" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-30" value="admin.mistong.com" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
