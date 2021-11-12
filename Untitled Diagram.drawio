@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T02:30:10.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="xWXBq34wp2YeEGNeEEcc" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T02:36:49.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="LM-aksikEnNF35j0syHv" version="15.2.9" type="github">
   <diagram id="dv2QtuWtAXCM198p0LFP" name="Page-1">
-    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
           <mxGeometry x="140" y="180" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="evyOM6vPQMrZivS5_X6k-4" value="学校管理系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="640" y="240" width="187" height="60" as="geometry" />
+          <mxGeometry x="640" y="240" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="evyOM6vPQMrZivS5_X6k-15" value="&lt;font color=&quot;#ff3333&quot;&gt;获取用户信息，如果不是管理员，则提示无权限访问&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="560" y="120" width="150" height="120" as="geometry" />
@@ -50,6 +50,9 @@
         </mxCell>
         <mxCell id="evyOM6vPQMrZivS5_X6k-30" value="admin.mistong.com" style="rounded=0;whiteSpace=wrap;html=1;opacity=40;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="500" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="evyOM6vPQMrZivS5_X6k-31" value="学校工作台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="730" y="240" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
