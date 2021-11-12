@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T06:46:42.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Bhs8t8C7H_osxlNWipof" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T06:50:08.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="B5QWM0DGuJLGp4Jp7cye" version="15.2.9" type="github">
   <diagram id="jZkwkyjEGLrXau2bkI0n" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -206,6 +206,50 @@
         </mxCell>
         <mxCell id="056Ldx9DOaQiwuDyh4kQ-59" value="必填，当班级命令设置选为“自定义”，班级号限制10个字" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="345" y="327.5" width="315" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="056Ldx9DOaQiwuDyh4kQ-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.5" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-60" value="取消" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="700" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="056Ldx9DOaQiwuDyh4kQ-61" target="056Ldx9DOaQiwuDyh4kQ-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="343" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-61" value="确定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-63" value="关闭弹窗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="780" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="056Ldx9DOaQiwuDyh4kQ-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="056Ldx9DOaQiwuDyh4kQ-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342.5" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-67" value="表单验证" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-69" value="表单验证不通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="760" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-71" value="弹框内提示错误信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-73" value="表单验证通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="850" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="056Ldx9DOaQiwuDyh4kQ-74" value="班级创建成功，关闭弹框，提示创建成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="890" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
