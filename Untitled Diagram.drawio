@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T02:29:29.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="kogzk24BLRLDj5nYVXg1" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T02:36:34.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NXkZ6RAxLAv0-wvteLTE" version="15.7.3" type="github">
   <diagram id="dv2QtuWtAXCM198p0LFP" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           <mxGeometry x="640" y="240" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="evyOM6vPQMrZivS5_X6k-15" value="&lt;font color=&quot;#ff3333&quot;&gt;获取用户信息，如果不是管理员，则提示无权限访问&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;opacity=40;" parent="1" vertex="1">
-          <mxGeometry x="560" y="120" width="150" height="120" as="geometry" />
+          <mxGeometry x="480" y="120" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="evyOM6vPQMrZivS5_X6k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="evyOM6vPQMrZivS5_X6k-21" target="evyOM6vPQMrZivS5_X6k-30" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -43,6 +43,15 @@
         </mxCell>
         <mxCell id="evyOM6vPQMrZivS5_X6k-31" value="学校工作台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="730" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zaQ5jrOaa6_SoWPFSIVf-5" value="&lt;font color=&quot;#ff3333&quot;&gt;登录过期，跳转到e网通登录登录页&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zaQ5jrOaa6_SoWPFSIVf-6" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;opacity=40;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zaQ5jrOaa6_SoWPFSIVf-8" value="登录过期，跳转到sso登录页" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="350" width="75" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
